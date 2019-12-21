@@ -3,22 +3,44 @@ body{
 	background-size: cover;
 	color: #B3B4B3;
 	background-attachment: fixed;
+	font-family: 'Fira Sans', sans-serif;
+}
+p{
+	padding-top: 10px;
+}
+hr{
+	color: #B3B4B3;
+	width: 50%;
 }
 #form{
 	display: block;
 	text-align: center;
+
 }
 h1{
 	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 30px;
 }
 input {
-  -webkit-appearance: none; 
-  appearance: none;
+  	-webkit-appearance: none; 
+  	appearance: none;
+  	font-family: 'Fira Sans', sans-serif;
+	background-color: #00000090;
+	backdrop-filter: blur(3px);
+	color: #B3B4B3;
+	border-color: #00000090;
+	border-width: 0px;
+	width: 50%;
+	padding: 7px;
+
+	
 }
 .wrapper{
 	width: 100%;
 	margin: auto;
 	align-content: center;
+	display: float;
 }
 .box{
 	width: 15%;
@@ -28,12 +50,26 @@ input {
 	background-color: rgba(0,0,0,0.5);
 	backdrop-filter: blur(10px);
 	margin: 2%;
+	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
 	
 }
 ul{
+	padding-top: 10px;
 	list-style-type: none;
+	padding-left: 0;
+	font-family: 'Fira Sans', sans-serif;
 }
 a{
 	text-decoration: none;
-	color: #B3B4B3
+	color: #B3B4B3;
+	font-family: 'Fira Sans', sans-serif;
+}
+li{
+	padding-bottom: 10px;
+	padding-top: 10px
+}
+li:hover{
+	background-color: #B3B4B3;
+	color: #0D0C0E;
 }
