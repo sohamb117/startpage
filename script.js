@@ -2,7 +2,7 @@ function formatAMPM() {
 var d = new Date(),
     ampm = d.getHours() >= 12 ? 'pm' : 'am',
     months = ['January','February','March','April','May','June','July','August','September','October','November','December'],
-    days = ['Sunday','Monday','Tuesday','Wednesday','Thuday','Friday','Saturday'];
+    days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate();
 }
 

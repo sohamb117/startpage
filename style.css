@@ -40,7 +40,9 @@ input {
 	border-width: 0px;
 	width: 50%;
 	padding: 7px;
-
+	align-content: center;
+	text-align: center;
+	justify-content: center;
 	
 }
 .wrapper{
@@ -79,6 +81,6 @@ li{
 	transition: 250ms;
 }
 li:hover{
-	background-color: #B3B4B390;
+	background-color: rgba(179,180,179,0.5);
 	color: #0D0C0E;
 }
